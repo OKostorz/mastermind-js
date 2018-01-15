@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;	
+    
+    font-family: sans-serif;
 }
 
 body {
@@ -21,7 +23,6 @@ header {
 	text-align: center; 
 }
 h1 {
-    font-family: sans-serif;
     color: white;
     
     padding: 10px;
@@ -52,11 +53,11 @@ h1 {
 }
 
 .PointAbove , .PointUnder{
-	border: 2px solid;
+	border: 1px solid;
 	border-radius: 100%;
 	border-color: #C32E3A;
-	width: 8px;
-	height: 8px;
+	width: 10px;
+	height: 10px;
 	display: inline-block;
 }
 
@@ -69,7 +70,7 @@ h1 {
 /* RECHTS */
 
 aside {
-	margin-left: 120px;
+	margin-left: 135px;
 }
 
 h4 {
