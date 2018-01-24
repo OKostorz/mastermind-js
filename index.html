@@ -246,18 +246,21 @@
 			<div class="Choice">
 				<h4 id="color">Wybierz kolor</h4>
 				<div class="">
-					<button onclick="color(red)" class="RED"></button>
-					<button onclick="color(orange)" class="ORANGE"></button>
-					<button onclick="color(yellow)" class="YELLOW"></button>
-					<button onclick="color(green)" class="GREEN"></button>
-					<button onclick="color(blue)" class="BLUE"></button>
-					<button onclick="color(purple)" class="PURPLE"></button>
+					<button onclick="changeColor('0')" class="RED"></button>
+					<button onclick="changeColor('1')" class="ORANGE"></button>
+					<button onclick="changeColor('2')" class="YELLOW"></button>
+					<button onclick="changeColor('3')" class="GREEN"></button>
+					<button onclick="changeColor('4')" class="BLUE"></button>
+					<button onclick="changeColor('5')" class="PURPLE"></button>
 				</div>
 			</div>
 
 			<div class="Answer">
 				<button onclick="answer()">Sprawdź odpowiedź</button>
 			</div>
+            <div>
+                <button onclick="cleanse()">Wyczysc</button>
+            </div>
 		</aside>
 </div>  
 <script type="text/javascript" src="js/mastermind.js"></script> 
